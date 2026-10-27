@@ -1,0 +1,32 @@
+RADAR MODELLING AND PERFORMANCE ANALYSIS
+COMPREHENSIVE PERFORMANCE REPORT
+============================================================
+
+1. PROJECT OVERVIEW
+The project simulates radar range estimation using round-trip
+travel time and the speed of light.
+
+2. SIMULATION CONFIGURATION
+Target ranges: 1,000 m, 3,000 m, 5,000 m and 10,000 m.
+Timing-noise levels: 0.05, 0.10 and 0.20 microseconds.
+Measurements per Stage 8 scenario: 10,000.
+
+3. AVERAGE STAGE 8 PERFORMANCE
+Timing noise 0.05 microseconds: Average MAE = 5.986 m; Average RMSE = 7.501 m.
+Timing noise 0.10 microseconds: Average MAE = 12.009 m; Average RMSE = 15.036 m.
+Timing noise 0.20 microseconds: Average MAE = 23.904 m; Average RMSE = 30.004 m.
+
+4. ENGINEERING INTERPRETATION
+Increasing timing noise increases range-estimation error.
+In the simplified model, range-error variability is independent
+of target distance when timing-noise variability is held constant.
+
+5. MODEL LIMITATIONS
+The simulation assumes idealised range estimation and does not
+model distance-dependent signal attenuation, target reflectivity,
+clutter, detection probability or false alarms.
+
+6. CONCLUSION
+The results demonstrate the relationship between timing precision
+and range precision under the assumptions of the simulation.
+Further work should introduce realistic signal and detection effects.

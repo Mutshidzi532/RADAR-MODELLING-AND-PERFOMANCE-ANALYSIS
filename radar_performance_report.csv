@@ -1,0 +1,9 @@
+Metric,Value
+Number of measurements,10000.0
+Mean signed error (m),-0.032039750526147416
+Mean absolute error (m),11.99271659849357
+RMSE (m),15.051217193735857
+Standard deviation of errors (m),15.051935707551058
+Minimum signed error (m),-58.83600377427501
+Maximum signed error (m),58.89356559654516
+Measurements within 10 m (%),49.69
